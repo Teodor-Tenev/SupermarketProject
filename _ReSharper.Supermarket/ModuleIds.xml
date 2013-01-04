@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341" ModuleId="Supermarket" />
+  <Module PersistentId="10B70CD7-F6F1-4ED0-B8D3-6198658025F2" ModuleId="Supermarket.DAL" />
+</Modules>

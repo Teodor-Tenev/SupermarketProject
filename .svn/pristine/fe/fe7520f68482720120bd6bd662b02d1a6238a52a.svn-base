@@ -1,0 +1,12 @@
+﻿@using Supermarket.DAL
+@model List<Product>
+
+@{
+    ViewBag.Title = "ViewAllProducts";
+}
+
+<h2>ViewAllProducts</h2>
+@foreach (Product product in Model)
+{
+    <p>@product.Name @product.Price</p><br />
+}
