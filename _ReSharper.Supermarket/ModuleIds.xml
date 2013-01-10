@@ -1,4 +1,8 @@
 <Modules>
   <Module PersistentId="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341" ModuleId="Supermarket" />
   <Module PersistentId="10B70CD7-F6F1-4ED0-B8D3-6198658025F2" ModuleId="Supermarket.DAL" />
+  <Module PersistentId="9D6A8AA7-71CD-48E0-AC57-B8DA01A913D0" ModuleId="Supermarket.Tests" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Web.Mvc" />
+  <Module PersistentId="System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.Entity" />
+  <Module PersistentId="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web" />
 </Modules>

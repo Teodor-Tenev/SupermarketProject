@@ -1,0 +1,46 @@
+﻿@using Supermarket.Models
+@model List<ProductModelView>
+
+@{
+    ViewBag.Title = "ViewAllProducts";
+   
+}
+<link href="@Url.Content("~/Content/ViewAllProducts.css")" rel="stylesheet" type="text/css" />
+
+<h2>View All Products</h2>
+<br />
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Category</th>
+        <th>Manifactor</th>
+        <th>Count</th>
+
+
+    </tr>
+
+    @foreach (ProductModelView product in Model)
+    {
+        using (Html.BeginForm("AddToCart", "Home", new { id = product.Id }))
+        {
+            <tr>    
+                <td>@product.Name </td> 
+                <td>@product.Price </td> 
+                <td>@product.Quantity</td> 
+                <td>@product.CategoryName</td> 
+                <td>@product.ManifactorName</td> 
+                <td><input id="count" type="text" name="count" maxlength="4" size="5" /></td> 
+                <td><input type="submit" value="Add" /></td> 
+                <td><input type="submit" value="Delete" /></td>
+                <td><input type="submit" value="Change" /></td>
+                <td><input type="submit" value="Buy" /></td>
+
+            </tr>
+        }
+    
+    }
+</table>
+

@@ -1,0 +1,31 @@
+﻿@using Supermarket.Models
+@model List<ProductModelView>
+
+@{
+    ViewBag.Title = "ViewAllProducts";
+   
+}
+<link href="@Url.Content("~/Content/ViewAllProducts.css")" rel="stylesheet" type="text/css" />
+
+<h2>View All Products</h2>
+<br />
+<table border="1">
+<tr>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Category</th>
+    <th>Manifactor</th>
+</tr>
+
+@foreach (ProductModelView product in Model)
+{
+    <tr>
+    
+    <td> @product.Name </td> <td> @product.Price </td> <td>@product.Quantity</td> <td>@product.CategoryName</td> <td>@product.ManifactorName</td>
+   
+    </tr>
+    
+}
+</table>
+
