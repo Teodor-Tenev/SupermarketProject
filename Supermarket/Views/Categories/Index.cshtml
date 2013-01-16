@@ -1,0 +1,29 @@
+﻿@using Supermarket.Models
+@model List<CategoryModelView>
+
+@{
+    ViewBag.Title = "Categories";
+}
+
+<h2>Categories</h2>
+
+<br />
+<table border="1">
+
+    <tr>
+        <th>Name</th>       
+    </tr>
+
+     @foreach (CategoryModelView category in Model)
+    {
+        
+        <tr>    
+            <td>@category.Name </td>                     
+            <td><input type="submit" value="Delete" /></td>
+            <td><input type="submit" value="Change" /></td>          
+
+        </tr>
+        
+    
+    }
+</table>

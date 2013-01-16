@@ -21,26 +21,8 @@ namespace Supermarket.Controllers
         {
             return View();
         }
-        public ActionResult ViewAllProducts()
-        {
-            List<Product> list = ProductDAL.GetAllProducts();
-            List<ProductModelView> productModelViews = new List<ProductModelView>();
-            foreach (Product product in list)
-            {
-                productModelViews.Add(new ProductModelView(product));
-            }
-            return View(productModelViews);
-        }
+      
 
-        public ActionResult Categories()
-        {
-            List<Category> list = CategoryDAL.GetAllCategories();
-            List<CategoryModelView> categoryModelViews = new List<CategoryModelView>();
-            foreach (Category category in list)
-            {
-                categoryModelViews.Add(new CategoryModelView(category));
-            }
-            return View(categoryModelViews);
-        }
+        
     }
 }
