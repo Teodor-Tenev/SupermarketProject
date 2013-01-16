@@ -1,0 +1,165 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:ProductDAL.cs" caret="155" fromTop="7" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:CategoryDAL.cs" caret="354" fromTop="10" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:CartDAL.cs" caret="287" fromTop="11" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:SupermarketModel.Designer.cs" caret="141038" fromTop="20" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Models/f:ProductModelView.cs" caret="511" fromTop="12" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Home/f:ViewAllProducts.cshtml" caret="1139" fromTop="36" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:App.Config" caret="247" fromTop="2" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:license.txt" caret="2419" fromTop="14" />
+      <File id="9D6A8AA7-71CD-48E0-AC57-B8DA01A913D0/d:Controllers/f:HomeControllerTest.cs" caret="667" fromTop="15" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.Release.config" caret="0" fromTop="0" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.Debug.config" caret="0" fromTop="0" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="1023" fromTop="18" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/f:_ViewStart.cshtml" caret="19" fromTop="1" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="940" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:App.Config" caret="341" fromTop="2" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Home/f:ViewAllProducts.cshtml" caret="872" fromTop="33" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="21" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="12" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="18" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="13" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="721" fromTop="13" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="1021" fromTop="17" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="446" fromTop="9" />
+      <File id="9D6A8AA7-71CD-48E0-AC57-B8DA01A913D0/d:Controllers/f:HomeControllerTest.cs" caret="639" fromTop="24" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="1280" fromTop="3" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/f:_ViewStart.cshtml" caret="19" fromTop="1" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="874" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="CrossAppDomainDelegate`0" priority="1" />
+      <Item value="list" priority="3" />
+      <Item value="prop" priority="10" />
+      <Item value="string" priority="4" />
+      <Item value="decimal" priority="0" />
+      <Item value="float" priority="0" />
+      <Item value="Supermarket" priority="0" />
+      <Item value="DAL" priority="0" />
+      <Item value="Category`0" priority="8" />
+      <Item value="RegisterModel`0" priority="0" />
+      <Item value="FormatException`0" priority="0" />
+      <Item value="reg" priority="2" />
+      <Item value="public" priority="2" />
+      <Item value="ProductModelView`0" priority="0" />
+      <Item value="Product`0" priority="2" />
+      <Item value="this" priority="8" />
+      <Item value="product" priority="10" />
+      <Item value="List" priority="2" />
+      <Item value="productModelViews" priority="2" />
+      <Item value="new" priority="5" />
+      <Item value="List&lt;ProductModelView&gt;" priority="0" />
+      <Item value="for" priority="1" />
+      <Item value="foreach" priority="5" />
+      <Item value="ProductModelView" priority="0" />
+      <Item value="VARIABLE" priority="0" />
+      <Item value="SupermarketEntities`0" priority="0" />
+      <Item value="SupermarketEntities" priority="0" />
+      <Item value="db" priority="2" />
+      <Item value="ProductDAL`0" priority="0" />
+      <Item value="CategoryDAL`0" priority="1" />
+      <Item value="category" priority="5" />
+      <Item value="if" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="int" priority="4" />
+      <Item value="Category" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="name" priority="0" />
+      <Item value="ParentId" priority="0" />
+      <Item value="parentId" priority="0" />
+      <Item value="id" priority="0" />
+      <Item value="Required" priority="0" />
+      <Item value="model" priority="0" />
+      <Item value="Categories`0" priority="0" />
+      <Item value="CategoryModelView`0" priority="1" />
+      <Item value="null" priority="0" />
+      <Item value="categoryModelViews" priority="1" />
+      <Item value="List&lt;CategoryModelView&gt;" priority="0" />
+      <Item value="CategoryModelView" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Supermarket.Models.ProductModelView">
+      <Item value="Quantity" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="Price" priority="0" />
+      <Item value="CategoryName" priority="1" />
+      <Item value="ManifactorName" priority="0" />
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Supermarket.DAL.Product">
+      <Item value="Name" priority="0" />
+      <Item value="Price" priority="0" />
+      <Item value="Quantity" priority="0" />
+      <Item value="Categories" priority="6" />
+      <Item value="Manifactor" priority="0" />
+      <Item value="CategoryId" priority="2" />
+      <Item value="ProductId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityCollection`1">
+      <Item value="RelationshipName" priority="2" />
+      <Item value="OnSerializing`0" priority="0" />
+      <Item value="SourceRoleName" priority="0" />
+      <Item value="TargetRoleName" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Supermarket.DAL.Manifactor">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Supermarket.DAL.Category">
+      <Item value="Name" priority="3" />
+      <Item value="CategoryId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Supermarket.DAL.SupermarketEntities">
+      <Item value="Categories" priority="1" />
+      <Item value="SaveChanges`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="All`1" priority="0" />
+      <Item value="Top`0" priority="0" />
+      <Item value="AddObject`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Supermarket.Models.RegisterModel">
+      <Item value="Email" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Supermarket.DAL.CategoryDAL">
+      <Item value="GetAllCategories`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

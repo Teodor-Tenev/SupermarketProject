@@ -90,7 +90,7 @@
     <Content Include="Content\earthlingtwo\images\img11.gif" />
     <Content Include="Content\earthlingtwo\images\img12.jpg" />
     <Content Include="Content\earthlingtwo\images\img15.jpg" />
-    <None Include="Content\earthlingtwo\_layout.cshtml" />
+    <Content Include="Content\earthlingtwo\_layout.cshtml" />
     <Content Include="Content\earthlingtwo\license.txt" />
     <Content Include="Content\earthlingtwo\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />

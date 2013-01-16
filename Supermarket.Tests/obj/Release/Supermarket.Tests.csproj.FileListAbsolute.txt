@@ -1,0 +1,10 @@
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\bin\Release\Supermarket.Tests.dll.config
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\bin\Release\Supermarket.Tests.dll
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\bin\Release\Supermarket.Tests.pdb
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\bin\Release\Supermarket.dll
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\bin\Release\Supermarket.DAL.dll
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\bin\Release\Supermarket.pdb
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\bin\Release\Supermarket.DAL.pdb
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\obj\Release\Supermarket.Tests.dll
+C:\Users\Teo\Desktop\Supermarket\Supermarket.Tests\obj\Release\Supermarket.Tests.pdb

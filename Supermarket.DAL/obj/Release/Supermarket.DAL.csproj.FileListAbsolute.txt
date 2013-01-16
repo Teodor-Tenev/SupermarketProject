@@ -1,0 +1,6 @@
+C:\Users\Teo\Desktop\Supermarket\Supermarket.DAL\bin\Release\Supermarket.DAL.dll.config
+C:\Users\Teo\Desktop\Supermarket\Supermarket.DAL\bin\Release\Supermarket.DAL.dll
+C:\Users\Teo\Desktop\Supermarket\Supermarket.DAL\bin\Release\Supermarket.DAL.pdb
+C:\Users\Teo\Desktop\Supermarket\Supermarket.DAL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Teo\Desktop\Supermarket\Supermarket.DAL\obj\Release\Supermarket.DAL.dll
+C:\Users\Teo\Desktop\Supermarket\Supermarket.DAL\obj\Release\Supermarket.DAL.pdb
