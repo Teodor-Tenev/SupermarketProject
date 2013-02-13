@@ -13,10 +13,10 @@ namespace Supermarket.Controllers
         /// </summary>
         /// <param name="exception"></param>
         /// <returns></returns>
-        public ActionResult General(Exception exception)
-        {
-            return Content("General failure", "text/plain");
-        }
+        //public ActionResult General(Exception exception)
+        //{
+        //    return Content("General failure", "text/plain");
+        //}
 
         /// <summary>
         /// Action for HTTP404 exception
