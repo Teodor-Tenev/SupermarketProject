@@ -42,13 +42,14 @@ namespace Supermarket
         //{
         //    var exception = Server.GetLastError();
         //    var httpException = exception as HttpException;
-        //    Response.Clear();
-        //    Server.ClearError();
+
+        //    //Response.Clear();
+        //    //Server.ClearError();
         //    var routeData = new RouteData();
         //    routeData.Values["controller"] = "Errors";
         //    routeData.Values["action"] = "General";
         //    routeData.Values["exception"] = exception;
-        //    Response.StatusCode = 500;
+        //    //Response.StatusCode = 500;
         //    if (httpException != null)
         //    {
         //        Response.StatusCode = httpException.GetHttpCode();
