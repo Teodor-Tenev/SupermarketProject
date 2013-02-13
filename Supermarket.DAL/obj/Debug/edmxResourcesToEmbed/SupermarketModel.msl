@@ -136,17 +136,17 @@
     <EntitySetMapping Name="Categories">
       <EntityTypeMapping TypeName="SupermarketModel.Category">
         <MappingFragment StoreEntitySet="Categories">
-          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
-          <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Manifactors">
       <EntityTypeMapping TypeName="SupermarketModel.Manifactor">
         <MappingFragment StoreEntitySet="Manifactors">
-          <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="ManifactorId" ColumnName="ManifactorId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

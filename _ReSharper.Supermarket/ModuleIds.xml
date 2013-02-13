@@ -3,4 +3,5 @@
   <Module PersistentId="10B70CD7-F6F1-4ED0-B8D3-6198658025F2" ModuleId="Supermarket.DAL" />
   <Module PersistentId="9D6A8AA7-71CD-48E0-AC57-B8DA01A913D0" ModuleId="Supermarket.Tests" />
   <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Web.Mvc" />
+  <Module PersistentId="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc_1" />
 </Modules>

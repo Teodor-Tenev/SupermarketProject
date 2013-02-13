@@ -28,10 +28,6 @@
       <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
       <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
     </AssociationSet>
-    <AssociationSet Name="FK__aspnet_Us__Appli__0DAF0CB0" Association="SupermarketModel.FK__aspnet_Us__Appli__0DAF0CB0">
-      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
-      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
-    </AssociationSet>
     <AssociationSet Name="FK__aspnet_Me__UserI__22AA2996" Association="SupermarketModel.FK__aspnet_Me__UserI__22AA2996">
       <End Role="aspnet_Users" EntitySet="aspnet_Users" />
       <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
@@ -56,6 +52,10 @@
       <End Role="aspnet_Users" EntitySet="aspnet_Users" />
       <End Role="UserCarts" EntitySet="UserCarts" />
     </AssociationSet>
+    <AssociationSet Name="FK_Categories_Categories" Association="SupermarketModel.FK_Categories_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Categories1" EntitySet="Categories" />
+    </AssociationSet>
     <AssociationSet Name="FK_Products_Manifactors" Association="SupermarketModel.FK_Products_Manifactors">
       <End Role="Manifactors" EntitySet="Manifactors" />
       <End Role="Products" EntitySet="Products" />
@@ -72,10 +72,6 @@
       <End Role="Categories" EntitySet="Categories" />
       <End Role="Products" EntitySet="Products" />
     </AssociationSet>
-    <AssociationSet Name="FK_Categories_Categories" Association="SupermarketModel.FK_Categories_Categories">
-      <End Role="Category" EntitySet="Categories" />
-      <End Role="Category1" EntitySet="Categories" />
-    </AssociationSet>
   </EntityContainer>
   <EntityType Name="aspnet_Applications">
     <Key>
@@ -88,7 +84,6 @@
     <NavigationProperty Name="aspnet_Membership" Relationship="SupermarketModel.FK__aspnet_Me__Appli__21B6055D" FromRole="aspnet_Applications" ToRole="aspnet_Membership" />
     <NavigationProperty Name="aspnet_Paths" Relationship="SupermarketModel.FK__aspnet_Pa__Appli__5AEE82B9" FromRole="aspnet_Applications" ToRole="aspnet_Paths" />
     <NavigationProperty Name="aspnet_Roles" Relationship="SupermarketModel.FK__aspnet_Ro__Appli__440B1D61" FromRole="aspnet_Applications" ToRole="aspnet_Roles" />
-    <NavigationProperty Name="aspnet_Users" Relationship="SupermarketModel.FK__aspnet_Us__Appli__0DAF0CB0" FromRole="aspnet_Applications" ToRole="aspnet_Users" />
   </EntityType>
   <EntityType Name="aspnet_Membership">
     <Key>
@@ -194,7 +189,6 @@
     <Property Name="MobileAlias" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
     <Property Name="IsAnonymous" Type="Boolean" Nullable="false" />
     <Property Name="LastActivityDate" Type="DateTime" Nullable="false" />
-    <NavigationProperty Name="aspnet_Applications" Relationship="SupermarketModel.FK__aspnet_Us__Appli__0DAF0CB0" FromRole="aspnet_Users" ToRole="aspnet_Applications" />
     <NavigationProperty Name="aspnet_Membership" Relationship="SupermarketModel.FK__aspnet_Me__UserI__22AA2996" FromRole="aspnet_Users" ToRole="aspnet_Membership" />
     <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="SupermarketModel.FK__aspnet_Pe__UserI__693CA210" FromRole="aspnet_Users" ToRole="aspnet_PersonalizationPerUser" />
     <NavigationProperty Name="aspnet_Profile" Relationship="SupermarketModel.FK__aspnet_Pr__UserI__38996AB5" FromRole="aspnet_Users" ToRole="aspnet_Profile" />
@@ -226,19 +220,19 @@
       <PropertyRef Name="CategoryId" />
     </Key>
     <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="ParentId" Type="Int32" />
+    <NavigationProperty Name="Categories1" Relationship="SupermarketModel.FK_Categories_Categories" FromRole="Categories" ToRole="Categories1" />
+    <NavigationProperty Name="Category1" Relationship="SupermarketModel.FK_Categories_Categories" FromRole="Categories1" ToRole="Categories" />
     <NavigationProperty Name="Products" Relationship="SupermarketModel.ProductCategories" FromRole="Categories" ToRole="Products" />
-    <Property Type="String" Name="Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
-    <Property Type="Int32" Name="ParentId" />
-    <NavigationProperty Name="Categories1" Relationship="SupermarketModel.FK_Categories_Categories" FromRole="Category" ToRole="Category1" />
-    <NavigationProperty Name="Categories2" Relationship="SupermarketModel.FK_Categories_Categories" FromRole="Category1" ToRole="Category" />
   </EntityType>
   <EntityType Name="Manifactor">
     <Key>
       <PropertyRef Name="ManifactorId" />
     </Key>
     <Property Name="ManifactorId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
     <NavigationProperty Name="Products" Relationship="SupermarketModel.FK_Products_Manifactors" FromRole="Manifactors" ToRole="Products" />
-    <Property Type="String" Name="Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Product">
     <Key>
@@ -307,18 +301,6 @@
         <PropertyRef Name="ApplicationId" />
       </Principal>
       <Dependent Role="aspnet_Roles">
-        <PropertyRef Name="ApplicationId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK__aspnet_Us__Appli__0DAF0CB0">
-    <End Role="aspnet_Applications" Type="SupermarketModel.aspnet_Applications" Multiplicity="1" />
-    <End Role="aspnet_Users" Type="SupermarketModel.aspnet_Users" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="aspnet_Applications">
-        <PropertyRef Name="ApplicationId" />
-      </Principal>
-      <Dependent Role="aspnet_Users">
         <PropertyRef Name="ApplicationId" />
       </Dependent>
     </ReferentialConstraint>
@@ -395,6 +377,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_Categories_Categories">
+    <End Role="Categories" Type="SupermarketModel.Category" Multiplicity="0..1" />
+    <End Role="Categories1" Type="SupermarketModel.Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Categories1">
+        <PropertyRef Name="ParentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_Products_Manifactors">
     <End Role="Manifactors" Type="SupermarketModel.Manifactor" Multiplicity="1" />
     <End Role="Products" Type="SupermarketModel.Product" Multiplicity="*" />
@@ -426,17 +420,5 @@
   <Association Name="ProductCategories">
     <End Role="Categories" Type="SupermarketModel.Category" Multiplicity="*" />
     <End Role="Products" Type="SupermarketModel.Product" Multiplicity="*" />
-  </Association>
-  <Association Name="FK_Categories_Categories">
-    <End Type="SupermarketModel.Category" Role="Category" Multiplicity="0..1" />
-    <End Type="SupermarketModel.Category" Role="Category1" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Category">
-        <PropertyRef Name="CategoryId" />
-      </Principal>
-      <Dependent Role="Category1">
-        <PropertyRef Name="ParentId" />
-      </Dependent>
-    </ReferentialConstraint>
   </Association>
 </Schema>

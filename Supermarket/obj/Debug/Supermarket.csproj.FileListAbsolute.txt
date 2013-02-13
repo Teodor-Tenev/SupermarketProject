@@ -1,6 +1,5 @@
 C:\Users\Teo\Desktop\Supermarket\Supermarket\bin\Supermarket.dll
 C:\Users\Teo\Desktop\Supermarket\Supermarket\bin\Supermarket.pdb
-C:\Users\Teo\Desktop\Supermarket\Supermarket\bin\EntityFramework.xml
 C:\Users\Teo\Desktop\Supermarket\Supermarket\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Teo\Desktop\Supermarket\Supermarket\obj\Debug\Supermarket.dll
 C:\Users\Teo\Desktop\Supermarket\Supermarket\obj\Debug\Supermarket.pdb

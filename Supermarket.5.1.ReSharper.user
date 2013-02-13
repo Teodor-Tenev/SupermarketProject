@@ -9,35 +9,68 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:ProductDAL.cs" caret="155" fromTop="7" />
-      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:CategoryDAL.cs" caret="354" fromTop="10" />
-      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:CartDAL.cs" caret="287" fromTop="11" />
-      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:SupermarketModel.Designer.cs" caret="141038" fromTop="20" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Models/f:ProductModelView.cs" caret="511" fromTop="12" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Home/f:ViewAllProducts.cshtml" caret="1139" fromTop="36" />
-      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:App.Config" caret="247" fromTop="2" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:license.txt" caret="2419" fromTop="14" />
-      <File id="9D6A8AA7-71CD-48E0-AC57-B8DA01A913D0/d:Controllers/f:HomeControllerTest.cs" caret="667" fromTop="15" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.Release.config" caret="0" fromTop="0" />
       <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.Debug.config" caret="0" fromTop="0" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="1023" fromTop="18" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/f:_ViewStart.cshtml" caret="19" fromTop="1" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="940" fromTop="23" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Home/f:About.cshtml" caret="0" fromTop="0" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Home/f:Index.cshtml" caret="227" fromTop="8" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/f:Web.config" caret="1143" fromTop="16" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/f:_ViewStart.cshtml" caret="60" fromTop="2" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:themes/d:base/f:jquery.ui.button.css" caret="423" fromTop="5" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Models/f:CategoryModelView.cs" caret="738" fromTop="23" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Models/f:AccountModels.cs" caret="960" fromTop="20" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Shared/f:_Layout.cshtml" caret="605" fromTop="16" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:style.css" caret="7499" fromTop="499" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Account/f:ChangePassword.cshtml" caret="0" fromTop="0" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:CategoriesController.cs" caret="825" fromTop="30" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Account/f:ChangePasswordSuccess.cshtml" caret="0" fromTop="0" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Shared/f:_LogOnPartial.cshtml" caret="271" fromTop="7" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="777" fromTop="10" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Account/f:LogOn.cshtml" caret="31" fromTop="0" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Categories/f:Index.cshtml" caret="156" fromTop="11" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/f:Site.css" caret="630" fromTop="25" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:AccountController.cs" caret="437" fromTop="15" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:CategoryDAL.cs" caret="569" fromTop="16" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Global.asax.cs" caret="694" fromTop="23" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:SupermarketModel.Designer.cs" caret="13372" fromTop="19" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Models/f:ProductModelView.cs" caret="1395" fromTop="18" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="1430" fromTop="15" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:App.Config" caret="91" fromTop="4" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:ProductDAL.cs" caret="840" fromTop="31" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:CartDAL.cs" caret="322" fromTop="11" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Products/f:Index.cshtml" caret="1201" fromTop="27" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="1644" fromTop="23" />
     </RecentFiles>
     <RecentEdits>
-      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:App.Config" caret="341" fromTop="2" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Home/f:ViewAllProducts.cshtml" caret="872" fromTop="33" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="21" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="12" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="18" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="3087" fromTop="13" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="721" fromTop="13" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="1021" fromTop="17" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="446" fromTop="9" />
-      <File id="9D6A8AA7-71CD-48E0-AC57-B8DA01A913D0/d:Controllers/f:HomeControllerTest.cs" caret="639" fromTop="24" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="1280" fromTop="3" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/f:_ViewStart.cshtml" caret="19" fromTop="1" />
-      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="874" fromTop="21" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:style.css" caret="2418" fromTop="23" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Shared/f:_LogOnPartial.cshtml" caret="264" fromTop="5" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:style.css" caret="7635" fromTop="35" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:style.css" caret="7454" fromTop="15" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="1710" fromTop="33" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:style.css" caret="7622" fromTop="23" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:style.css" caret="7628" fromTop="24" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:style.css" caret="7499" fromTop="19" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="176" fromTop="3" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:CartDAL.cs" caret="329" fromTop="13" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Content/d:earthlingtwo/f:_layout.cshtml" caret="825" fromTop="13" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Products/f:Index.cshtml" caret="1324" fromTop="28" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Products/f:Index.cshtml" caret="1272" fromTop="28" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="1187" fromTop="18" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="819" fromTop="23" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="509" fromTop="16" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="1018" fromTop="28" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="360" fromTop="6" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Products/f:Index.cshtml" caret="586" fromTop="16" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="1832" fromTop="25" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Models/f:ProductModelView.cs" caret="1946" fromTop="18" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/f:Web.config" caret="598" fromTop="13" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:App.Config" caret="91" fromTop="4" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:ProductDAL.cs" caret="626" fromTop="25" />
+      <File id="10B70CD7-F6F1-4ED0-B8D3-6198658025F2/f:ProductDAL.cs" caret="840" fromTop="31" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="1653" fromTop="31" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Views/d:Products/f:Index.cshtml" caret="1201" fromTop="27" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="741" fromTop="7" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="1811" fromTop="32" />
+      <File id="6B7E03B8-90FC-4B44-BEDD-55E4DDE0A341/d:Controllers/f:ProductsController.cs" caret="1653" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -56,7 +89,7 @@
       <Item value="CrossAppDomainDelegate`0" priority="1" />
       <Item value="list" priority="3" />
       <Item value="prop" priority="10" />
-      <Item value="string" priority="4" />
+      <Item value="string" priority="5" />
       <Item value="decimal" priority="0" />
       <Item value="float" priority="0" />
       <Item value="Supermarket" priority="0" />
@@ -65,11 +98,11 @@
       <Item value="RegisterModel`0" priority="0" />
       <Item value="FormatException`0" priority="0" />
       <Item value="reg" priority="2" />
-      <Item value="public" priority="2" />
+      <Item value="public" priority="4" />
       <Item value="ProductModelView`0" priority="0" />
       <Item value="Product`0" priority="2" />
       <Item value="this" priority="8" />
-      <Item value="product" priority="10" />
+      <Item value="product" priority="11" />
       <Item value="List" priority="2" />
       <Item value="productModelViews" priority="2" />
       <Item value="new" priority="5" />
@@ -80,20 +113,20 @@
       <Item value="VARIABLE" priority="0" />
       <Item value="SupermarketEntities`0" priority="0" />
       <Item value="SupermarketEntities" priority="0" />
-      <Item value="db" priority="2" />
-      <Item value="ProductDAL`0" priority="0" />
+      <Item value="db" priority="6" />
+      <Item value="ProductDAL`0" priority="1" />
       <Item value="CategoryDAL`0" priority="1" />
       <Item value="category" priority="5" />
       <Item value="if" priority="0" />
-      <Item value="static" priority="0" />
-      <Item value="void" priority="1" />
-      <Item value="int" priority="4" />
+      <Item value="static" priority="1" />
+      <Item value="void" priority="3" />
+      <Item value="int" priority="8" />
       <Item value="Category" priority="0" />
       <Item value="Name" priority="0" />
       <Item value="name" priority="0" />
       <Item value="ParentId" priority="0" />
       <Item value="parentId" priority="0" />
-      <Item value="id" priority="0" />
+      <Item value="id" priority="4" />
       <Item value="Required" priority="0" />
       <Item value="model" priority="0" />
       <Item value="Categories`0" priority="0" />
@@ -102,6 +135,15 @@
       <Item value="categoryModelViews" priority="1" />
       <Item value="List&lt;CategoryModelView&gt;" priority="0" />
       <Item value="CategoryModelView" priority="0" />
+      <Item value="Action`0" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="productAction" priority="0" />
+      <Item value="case" priority="3" />
+      <Item value="break" priority="5" />
+      <Item value="default" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="count" priority="2" />
+      <Item value="Edit`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Supermarket.Models.ProductModelView">
       <Item value="Quantity" priority="2" />
@@ -114,11 +156,11 @@
     <ItemStatistics item="Qualified:Supermarket.DAL.Product">
       <Item value="Name" priority="0" />
       <Item value="Price" priority="0" />
-      <Item value="Quantity" priority="0" />
+      <Item value="Quantity" priority="2" />
       <Item value="Categories" priority="6" />
       <Item value="Manifactor" priority="0" />
       <Item value="CategoryId" priority="2" />
-      <Item value="ProductId" priority="0" />
+      <Item value="ProductId" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityCollection`1">
       <Item value="RelationshipName" priority="2" />
@@ -145,12 +187,15 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Supermarket.DAL.SupermarketEntities">
       <Item value="Categories" priority="1" />
-      <Item value="SaveChanges`0" priority="0" />
+      <Item value="SaveChanges`0" priority="2" />
+      <Item value="Products" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
       <Item value="All`1" priority="0" />
       <Item value="Top`0" priority="0" />
       <Item value="AddObject`0" priority="0" />
+      <Item value="Where`0" priority="0" />
+      <Item value="DeleteObject`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
       <Item value="Text" priority="0" />
@@ -160,6 +205,14 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Supermarket.DAL.CategoryDAL">
       <Item value="GetAllCategories`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="First`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Supermarket.DAL.ProductDAL">
+      <Item value="IncreaseProductQuantity`0" priority="0" />
+      <Item value="DeleteProduct`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

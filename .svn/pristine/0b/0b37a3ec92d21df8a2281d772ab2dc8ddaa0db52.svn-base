@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Supermarket.DAL
+{
+   public static class ProductDAL
+    {
+       public static List<Product> GetAllProducts()
+       {
+           SupermarketEntities db = new SupermarketEntities();
+           return db.Products.ToList();
+       }
+
+
+       public static void IncreaseProductQuantity(int id, int count)
+       {
+           SupermarketEntities db = new SupermarketEntities();
+
+           db.Products.Where(x => x.ProductId == id).FirstOrDefault().Quantity += count;
+
+           db.SaveChanges();
+       }
+    }
+}
